@@ -1,11 +1,69 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <body>
-            <title></title>
-<div class="your name">
-            <h1>Jon Palmer</h1>
+
+<head>
+       
+    <title>Jon Palmer Contact Me</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+
+<body>
+    
+        <header id="masthead">
+                <div class="container">
+                    <a href="index.html" id="logo">Jon Palmer</a>
+                    <nav>
+                        <a href="index.html">About</a>
+                        <a href="portfolio.html">Portfolio</a>
+                        <a href="contact.html">Contact</a>
+                    </nav>
+                </div>
+            </header>
+
+    
+
+        <div id="main-container" class="continer">
+            <section class="main-section">
+                <h1>Contact</h1>
+                <form id="contact-form">
+                    <ul>
+                        <li>
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" placeholder="John Smith" required="required">
+                    </li>
+                    <li>
+                            <label for="email">Email</label>
+                            <input type="text" name="email" id="Email" placeholder="example@gmail.com" required="required">
+                        </li>
+                        <li>
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message"  required="required"></textarea>
+                            </li>
+                    </ul>
+                    <input type="submit">
+                </form>
+            </section>
+      
+        <section class="side-bar">
+            <div id="connect">
+                <h3>Connect with Me</h3>
+                <img src="assets/images/iconfinder_facebook_square_107117.png" class="social" alt="facebook">
+                <img src="assets/images/iconfinder_github_square_107105.png"class="social" alt="github">
+                <img src="assets/images/iconfinder_overflow_334695.png" class="social" alt="stackoverflow">
+            </div>
+        </section>
+    </div>
+    
+    
+
+
+    <footer>
+        <div class="container">
+            &copy: Copyright 2019 Jon Palmer
         </div>
-        </body>
-    </head>
+    </footer>
+   
+</body>
+
 </html>
