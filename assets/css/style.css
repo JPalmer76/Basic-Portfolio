@@ -148,7 +148,7 @@ h2 {
   margin-right: 0px;
 }
 
-.social: :last-child {
+.social :last-child {
   margin-right: 0;
   height: 62px;
 }
