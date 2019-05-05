@@ -270,7 +270,9 @@ input[type="submit"] {
 }
 
 @media screen and (max-width: 640px) {
- 
+  #masthead {
+    position: static;
+  }
 }
 
 @media screen and (max-width:320px) {
